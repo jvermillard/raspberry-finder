@@ -1,0 +1,3 @@
+#!/bin/sh
+echo listening...
+socat UDP4-RECVFROM:5100,broadcast,fork STDOUT
